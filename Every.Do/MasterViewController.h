@@ -7,10 +7,11 @@
 //
 
 #import <UIKit/UIKit.h>
+#import "ModalView.h"
 
 @class DetailViewController;
 
-@interface MasterViewController : UITableViewController
+@interface MasterViewController : UITableViewController <addNewTask>
 
 
 @end

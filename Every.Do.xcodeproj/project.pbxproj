@@ -16,6 +16,9 @@
 		681F717D1F3A36FA0005FC23 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 681F717B1F3A36FA0005FC23 /* LaunchScreen.storyboard */; };
 		681F71881F3A36FB0005FC23 /* Every_DoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 681F71871F3A36FB0005FC23 /* Every_DoTests.m */; };
 		681F71931F3A36FB0005FC23 /* Every_DoUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 681F71921F3A36FB0005FC23 /* Every_DoUITests.m */; };
+		681F71A21F3A38970005FC23 /* ToDo.m in Sources */ = {isa = PBXBuildFile; fileRef = 681F71A11F3A38970005FC23 /* ToDo.m */; };
+		681F71A51F3A45410005FC23 /* ToDoCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 681F71A41F3A45410005FC23 /* ToDoCell.m */; };
+		681F71EA1F3A979D0005FC23 /* ModalView.m in Sources */ = {isa = PBXBuildFile; fileRef = 681F71E91F3A979D0005FC23 /* ModalView.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -54,6 +57,12 @@
 		681F718E1F3A36FB0005FC23 /* Every.DoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Every.DoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		681F71921F3A36FB0005FC23 /* Every_DoUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Every_DoUITests.m; sourceTree = "<group>"; };
 		681F71941F3A36FB0005FC23 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		681F71A01F3A38970005FC23 /* ToDo.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ToDo.h; sourceTree = "<group>"; };
+		681F71A11F3A38970005FC23 /* ToDo.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ToDo.m; sourceTree = "<group>"; };
+		681F71A31F3A45410005FC23 /* ToDoCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ToDoCell.h; sourceTree = "<group>"; };
+		681F71A41F3A45410005FC23 /* ToDoCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ToDoCell.m; sourceTree = "<group>"; };
+		681F71E81F3A979D0005FC23 /* ModalView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ModalView.h; sourceTree = "<group>"; };
+		681F71E91F3A979D0005FC23 /* ModalView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ModalView.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -104,12 +113,18 @@
 		681F71691F3A36FA0005FC23 /* Every.Do */ = {
 			isa = PBXGroup;
 			children = (
+				681F71741F3A36FA0005FC23 /* DetailViewController.m */,
 				681F716D1F3A36FA0005FC23 /* AppDelegate.h */,
 				681F716E1F3A36FA0005FC23 /* AppDelegate.m */,
+				681F71E81F3A979D0005FC23 /* ModalView.h */,
+				681F71E91F3A979D0005FC23 /* ModalView.m */,
+				681F71A01F3A38970005FC23 /* ToDo.h */,
+				681F71A11F3A38970005FC23 /* ToDo.m */,
+				681F71A31F3A45410005FC23 /* ToDoCell.h */,
+				681F71A41F3A45410005FC23 /* ToDoCell.m */,
 				681F71701F3A36FA0005FC23 /* MasterViewController.h */,
 				681F71711F3A36FA0005FC23 /* MasterViewController.m */,
 				681F71731F3A36FA0005FC23 /* DetailViewController.h */,
-				681F71741F3A36FA0005FC23 /* DetailViewController.m */,
 				681F71761F3A36FA0005FC23 /* Main.storyboard */,
 				681F71791F3A36FA0005FC23 /* Assets.xcassets */,
 				681F717B1F3A36FA0005FC23 /* LaunchScreen.storyboard */,
@@ -278,10 +293,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				681F71A21F3A38970005FC23 /* ToDo.m in Sources */,
 				681F716F1F3A36FA0005FC23 /* AppDelegate.m in Sources */,
 				681F71721F3A36FA0005FC23 /* MasterViewController.m in Sources */,
 				681F716C1F3A36FA0005FC23 /* main.m in Sources */,
 				681F71751F3A36FA0005FC23 /* DetailViewController.m in Sources */,
+				681F71A51F3A45410005FC23 /* ToDoCell.m in Sources */,
+				681F71EA1F3A979D0005FC23 /* ModalView.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
